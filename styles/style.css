@@ -1,0 +1,84 @@
+h1,
+h2 {
+  text-align: center;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 27px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+}
+img {
+  display: block;
+  margin: 0px 0px -10px 0px;
+}
+.container {
+  color: #fff;
+  border: 1px solid black;
+  padding: 30px;
+  max-width: 930px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    0deg,
+    rgb(149, 185, 243) 0%,
+    rgb(139, 102, 241) 100%
+  );
+  box-shadow: 2px 9px 44px rgba(0, 0, 0, 0.3);
+}
+hr {
+  border: 1px solid #fff;
+  box-shadow: -3px 3px 9px 1px #00000073;
+}
+a {
+  text-decoration: none;
+}
+.btn,
+.search {
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 9%);
+}
+.btn:hover {
+  color: #fff;
+  background: transparent;
+}
+.card-title {
+  font-size: 15px;
+}
+
+.card {
+  background: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0px 21px 45px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.row {
+  align-items: center;
+}
+.temperature {
+  font-size: 70px;
+}
+.more-temp {
+  font-size: 27px;
+  margin-left: -15px;
+}
+.curr-weather {
+  display: block;
+  margin-left: 40px;
+  margin-top: -25px;
+  margin-bottom: -38px;
+}
